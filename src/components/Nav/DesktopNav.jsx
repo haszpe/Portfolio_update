@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './DesktopNav.module.css'
 import logoimage from '../../assets/logo.png'
+import CV from '../../assets/Krystian Sporysz CV.pdf'
 
 const DesktopNav = () => {
   return (
@@ -9,10 +10,10 @@ const DesktopNav = () => {
       <img src={logoimage} alt="" />
     </div>
     <div className={styles.navigation}>
-      <a href="">Home</a>
-      <a href="">Portfolio</a>
-      <a href="">Contact</a>
-      <a href="">CV</a>
+      <a href="#scroll">Home</a>
+      <a href="#projects">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a href={CV} download="Krystian_Sporysz_CV">CV</a>
     </div>
   </nav>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Scroll = () => {
   return (
-    <div style={{height:"200vh"}}></div>
+    <div id='scroll' style={{height:"200vh"}}>Scroll</div>
   )
 }
 
